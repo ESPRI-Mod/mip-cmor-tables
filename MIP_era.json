@@ -6,8 +6,6 @@
             "drs_name": "1hr",
             "long_name": "1hr",
             "description": "Sampled hourly",
-            "notes": {},
-            "status": "pending"
         },
         {
             "drs_name": "day",
@@ -16,3 +14,14 @@
         }
     ]
 }
+
+_______________________
+
+{
+    "collection": "time_frequency",
+    "universe_url": "http://mip-cmor-table....",
+    "data_descriptor": "frequency",
+    "term_set":  "day" #...
+}
+
+_______________________

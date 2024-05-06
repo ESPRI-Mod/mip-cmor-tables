@@ -1,0 +1,6 @@
+{
+    "collection": "time_frequency",
+    "universe_url": "http://mip-cmor-table....",
+    "data_descriptor": "frequency",
+    "term_set":  "day" # <- 1 alias
+}

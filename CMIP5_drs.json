@@ -1,0 +1,123 @@
+[
+  {
+    "type": "directory",
+    "prefix": "CMIP5",
+    "collections": [
+      {
+        "collection": "product",
+        "is_required": true
+      },
+      {
+        "collection": "institute",
+        "is_required": true
+      },
+      {
+        "collection": "model",
+        "is_required": true
+      },
+      {
+        "collection": "experiment",
+        "is_required": true
+      },
+      {
+        "collection": "time_frequency",
+        "is_required": true
+      },
+      {
+        "collection": "realm",
+        "is_required": true
+      },
+      {
+        "collection": "cmor_table",
+        "is_required": true
+      },
+      {
+        "collection": "member",
+        "is_required": true
+      },
+      {
+        "collection": "version",
+        "is_required": true
+      },
+      {
+        "collection": "variable",
+        "is_required": true
+      }
+    ],
+    "separator": "/"
+  },
+  {
+    "type": "filename",
+    "prefix": null,
+    "collections": [
+      {
+        "collection": "variable",
+        "is_required": true
+      },
+      {
+        "collection": "cmor_table",
+        "is_required": true
+      },
+      {
+        "collection": "model",
+        "is_required": true
+      },
+      {
+        "collection": "experiment",
+        "is_required": true
+      },
+      {
+        "collection": "member",
+        "is_required": true
+      },
+      {
+        "collection": "time-range",
+        "is_required": false
+      }
+    ],
+    "separator": "_"
+  },
+  {
+    "type": "dataset_id",
+    "prefix": "cmip5",
+    "collections": [
+      {
+        "collection": "product",
+        "is_required": true
+      },
+      {
+        "collection": "institute",
+        "is_required": true
+      },
+      {
+        "collection": "model",
+        "is_required": true
+      },
+      {
+        "collection": "experiment",
+        "is_required": true
+      },
+      {
+        "collection": "time_frequency",
+        "is_required": true
+      },
+      {
+        "collection": "realm",
+        "is_required": true
+      },
+      {
+        "collection": "cmor_table",
+        "is_required": true
+      },
+      {
+        "collection": "member",
+        "is_required": true
+      },
+      {
+        "collection": "version",
+        "is_required": true
+      }
+    ],
+    "separator": "."
+  }
+]

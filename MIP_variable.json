@@ -1,0 +1,84 @@
+{
+    "data_descriptor": "variable",
+    "metadata": "...",
+    "term_set": [
+        {
+            "drs_name": "acabf",
+            "long_name": "Surface Mass Balance Flux",
+            "description": "Sampled hourly",
+            "specific_keys": {
+                "positive": "",
+                "type": "real",
+                "units": "kg m-2 s-1",
+                "standard_name": "land_ice_surface_specific_mass_balance_flux"
+            },
+            "status": "pending"
+        },
+        {
+            "drs_name": "day",
+            "long_name": "day",
+            "description": "Daily mean samples"
+        }
+    ]
+}
+
+"acabf": {
+            "long_name": "Surface Mass Balance Flux",
+            "out_name": "acabf",
+            "positive": "",
+            "standard_name": "land_ice_surface_specific_mass_balance_flux",
+            "type": "real",
+            "units": "kg m-2 s-1",
+            "tables": {
+                "GIAmon": {
+                    "branded_variable_name": "acabf_mon-li-tav-z0-hxyA",
+                    "comment": "Specific mass balance means the net rate at which ice is added per unit area at the land ice surface. Computed as the total surface mass balance on the land ice portion of the grid cell divided by land ice area in the grid cell. A negative value means loss of ice",
+                    "frequency": "mon",
+                    "dimensions": [
+                        "xant",
+                        "yant",
+                        "time"
+                    ],
+                    "modeling_realm": [
+                        "landIce"
+                    ],
+                    "provenance": {
+                        "CMIP6": {
+                            "dreq_uid": "d5b30bf6-c78d-11e6-9b25-5404a60d96b5",
+                            "mip_table": "ImonAnt",
+                            "variable_name": "acabf"
+                        }
+                    },
+                    "validation": {
+                        "ok_max_mean_abs": "",
+                        "ok_min_mean_abs": "",
+                        "valid_max": "",
+                        "valid_min": ""
+                    }
+                },
+                "GIAyr": {
+                    "branded_variable_name": "acabf_yr-li-tav-z0-hxyA",
+                    "comment": "Specific mass balance means the net rate at which ice is added per unit area at the land ice surface. Computed as the total surface mass balance on the land ice portion of the grid cell divided by land ice area in the grid cell. A negative value means loss of ice",
+                    "frequency": "yr",
+                    "dimensions": [
+                        "xant",
+                        "yant",
+                        "time"
+                    ],
+                    "modeling_realm": [
+                        "landIce"
+                    ],
+                    "provenance": {
+                        "CMIP6": {
+                            "dreq_uid": "d5b44890-c78d-11e6-9b25-5404a60d96b5",
+                            "mip_table": "IyrAnt",
+                            "variable_name": "acabf"
+                        }
+                    },
+                    "validation": {
+                        "ok_max_mean_abs": "",
+                        "ok_min_mean_abs": "",
+                        "valid_max": "",
+                        "valid_min": ""
+                    }
+                },
