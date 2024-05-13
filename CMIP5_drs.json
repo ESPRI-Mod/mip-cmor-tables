@@ -98,7 +98,7 @@
   {
     "type": "dataset_id",
     "separator": ".",
-    "collections": [
+    "parts": [
       {
         "value": "cmip5",
         "kind": "constant"
