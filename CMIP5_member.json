@@ -1,6 +1,6 @@
 {
-    "collection": "member",
+    "drs_name": "member",
     "universe_url": "http://mip-cmor-table....",
-    "data_descriptor": "datasetVariant",
-    "term_regex": "r[0-9]i[0-9]p[0-9]"
+    "data_descriptor": "dataset_variant",
+    "regex": "r[0-9]i[0-9]p[0-9]"
 }

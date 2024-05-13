@@ -1,11 +1,16 @@
 [
   {
     "type": "directory",
-    "prefix": "CMIP5",
-    "collections": [
+    "separator": "/",
+    "parts": [
+      {
+        "value": "CMIP5",
+        "kind": "constant"
+      },
       {
         "collection": "product",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "institute",
@@ -13,111 +18,135 @@
       },
       {
         "collection": "model",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "experiment",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "time_frequency",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "realm",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "cmor_table",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "member",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "version",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "variable",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       }
     ],
-    "separator": "/"
   },
   {
     "type": "filename",
-    "prefix": null,
-    "collections": [
+    "separator": "_",
+    "parts": [
       {
         "collection": "variable",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "cmor_table",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "model",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "experiment",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "member",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "time-range",
-        "is_required": false
+        "is_required": false,
+        "kind": "variable"
       }
-    ],
-    "separator": "_"
+    ]
   },
   {
     "type": "dataset_id",
-    "prefix": "cmip5",
+    "separator": ".",
     "collections": [
       {
+        "value": "cmip5",
+        "kind": "constant"
+      },
+      {
         "collection": "product",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "institute",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "model",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "experiment",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "time_frequency",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "realm",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "cmor_table",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "member",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "version",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       }
-    ],
-    "separator": "."
+    ]
   }
 ]

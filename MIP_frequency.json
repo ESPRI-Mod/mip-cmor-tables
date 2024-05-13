@@ -1,18 +1,23 @@
 {
-    "data_descriptor": "frequency",
+    "name": "frequency",
+    "description": "...",
     "metadata": "...",
-    "term_set": [
+    "terms": [
         {
             "drs_name": "1hr",
             "long_name": "1hr",
+            "canonical_name": "...",
             "description": "Sampled hourly",
-            "notes": {},
-            "status": "pending"
+            "status": "pending",
+            "created": "2024-05-13 15:00:01",
+            "modified": "2024-05-13 15:00:01",
+            "specific_keys": {},
         },
         {
             "drs_name": "day",
             "long_name": "day",
-            "description": "Daily mean samples"
+            "description": "Daily mean samples",
+            ...
         }
     ]
 }

@@ -1,0 +1,5 @@
+{
+  "name": "CMIP5",
+  "description": "...",
+  "collections": [ ... ] # Only the CMIP5 collection names.
+}

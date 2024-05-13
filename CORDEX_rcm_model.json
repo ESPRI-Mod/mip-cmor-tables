@@ -1,12 +1,10 @@
 {
-    "collection": "rcm_model",
+    "drs_name": "rcm_model",
     "universe_url": "http://mip-cmor-table....",
-    "data_descriptor": "rcmModel",
-    "term_template": {
-      "collections": [
-        "institute",
-        "rcm_name"
-      ],
-      "separator": "-"
-    }
+    "data_descriptor": "rcm_model",
+    "separator": "-",
+    "collections": [
+      {"collection": "institute", "is_required": true},
+      {"collection": "rcm_name", "is_required": true},
+    ]
 }
