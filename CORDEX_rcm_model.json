@@ -5,6 +5,6 @@
     "separator": "-",
     "collections": [
       {"collection": "institute", "is_required": true},
-      {"collection": "rcm_name", "is_required": true},
+      {"collection": "rcm_name", "is_required": true}
     ]
 }

@@ -14,7 +14,8 @@
       },
       {
         "collection": "institute",
-        "is_required": true
+        "is_required": true,
+        "kind": "variable"
       },
       {
         "collection": "model",
@@ -56,7 +57,7 @@
         "is_required": true,
         "kind": "variable"
       }
-    ],
+    ]
   },
   {
     "type": "filename",
