@@ -2,5 +2,10 @@
     "drs_name": "member",
     "universe_url": "http://mip-cmor-table....",
     "data_descriptor": "dataset_variant",
-    "regex": "r[0-9]i[0-9]p[0-9]"
+    "specs": [
+        {
+            "regex": "r[0-9]i[0-9]p[0-9]"
+            "kind": "regex"
+        }
+    ]
 }

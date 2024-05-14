@@ -2,5 +2,10 @@
     "drs_name": "time_frequency",
     "universe_url": "http://mip-cmor-table....",
     "data_descriptor": "frequency",
-    "terms": ["day", ...] # <- 1 alias
+    "specs": [
+        {
+            "kind": "terms",
+            "terms": ["day"]
+        }
+    ]
 }
