@@ -1,4 +1,5 @@
 {
-    "data_descriptor": "dataset_variant",
-    "metadata": "..."
+    "name": "dataset_variant",
+    "description": "...",
+    "metadata": {}
 }

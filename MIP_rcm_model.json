@@ -1,4 +1,5 @@
 {
-    "data_descriptor": "rcm_model",
-    "metadata": "..."
+    "name": "rcm_model",
+    "description": "...",
+    "metadata": {}
 }
