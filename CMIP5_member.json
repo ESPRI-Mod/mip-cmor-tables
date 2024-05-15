@@ -4,7 +4,7 @@
     "data_descriptor": "dataset_variant",
     "specs": [
         {
-            "regex": "r[0-9]i[0-9]p[0-9]"
+            "regex": "r[0-9]i[0-9]p[0-9]",
             "kind": "regex"
         }
     ]
