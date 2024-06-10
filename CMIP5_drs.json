@@ -8,54 +8,54 @@
         "kind": "constant"
       },
       {
-        "collection": "product",
+        "collection_name": "product",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "institute",
+        "collection_name": "institute",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "model",
+        "collection_name": "model",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "experiment",
+        "collection_name": "experiment",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "time_frequency",
+        "collection_name": "time_frequency",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "realm",
+        "collection_name": "realm",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "cmor_table",
+        "collection_name": "cmor_table",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "member",
+        "collection_name": "member",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "version",
+        "collection_name": "version",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "variable",
+        "collection_name": "variable",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       }
     ]
   },
@@ -64,34 +64,34 @@
     "separator": "_",
     "parts": [
       {
-        "collection": "variable",
+        "collection_name": "variable",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "cmor_table",
+        "collection_name": "cmor_table",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "model",
+        "collection_name": "model",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "experiment",
+        "collection_name": "experiment",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "member",
+        "collection_name": "member",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "time-range",
+        "collection_name": "time-range",
         "is_required": false,
-        "kind": "variable"
+        "kind": "collection"
       }
     ]
   },
@@ -104,49 +104,49 @@
         "kind": "constant"
       },
       {
-        "collection": "product",
+        "collection_name": "product",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "institute",
+        "collection_name": "institute",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "model",
+        "collection_name": "model",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "experiment",
+        "collection_name": "experiment",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "time_frequency",
+        "collection_name": "time_frequency",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "realm",
+        "collection_name": "realm",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "cmor_table",
+        "collection_name": "cmor_table",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "member",
+        "collection_name": "member",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       },
       {
-        "collection": "version",
+        "collection_name": "version",
         "is_required": true,
-        "kind": "variable"
+        "kind": "collection"
       }
     ]
   }
