@@ -1,0 +1,10 @@
+{
+  "@context":{
+    "@base":"https://espri-mod.github.io/mip-cmor-tables/",
+    "terms":{
+      "@id":"https://espri-mod.github.io/mip-cmor-tables/table/terms",
+      "@type":"@id",
+      "@context":{"@base":"https://espri-mod.github.io/mip-cmor-tables/table/"}
+    }
+  }
+}
