@@ -29,6 +29,13 @@ jobs:
         name: datadescriptors.json
         path: ./datadescriptors.json
 
+
+
+    - name: Set up Git user for commit
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+
     - name: Commit datadescriptors.json
       run: |
         git add ./datadescriptors.json
