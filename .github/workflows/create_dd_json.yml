@@ -27,4 +27,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: datadescriptors.json
-        path: datadescriptors.json
+        path: ./datadescriptors.json
