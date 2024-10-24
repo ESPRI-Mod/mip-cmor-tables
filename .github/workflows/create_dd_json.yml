@@ -39,7 +39,7 @@ jobs:
             # List all JSON files inside the directory, strip path and .json extension
             json_files=$(find "$dir" -maxdepth 1 -type f -name "*.json" | sed 's|.*/||' | sed 's|.json||' | jq -R . | jq -s .)
             # Create the JSON file with the directory name in the root of the repository
-        echo '{"@context":"000_context.jsonld", '"${dirname}s'": '"$json_files"'}' > "./${dirname}.json"
+        echo '{"@context":"000_context.jsonld", '"${dirname}'s": '"$json_files"'}' > "./${dirname}.json"
           fi
         done
 
