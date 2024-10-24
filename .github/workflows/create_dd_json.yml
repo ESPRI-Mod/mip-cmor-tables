@@ -1,0 +1,30 @@
+
+name: Create the json file listing all DD  
+
+on:
+  push:
+    branches:
+      - uni_proj_ld
+  workflow_dispatch:
+
+jobs:
+  list-directories:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout branch
+      uses: actions/checkout@v3
+      with:
+        ref: uni_proj_ld
+
+    - name: List directories in TATA
+      run: |
+        directories=$(find * -type d | jq -R . | jq -s .)
+        
+        echo '{"@context": "000_context.jsonld", "datadescriptors": '"$directories"'}' > datadescriptors.json
+        
+    - name: Upload datadescriptors.json as artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: datadescriptors.json
+        path: datadescriptors.json
