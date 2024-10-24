@@ -42,6 +42,24 @@ jobs:
         echo '{"@context":"000_context.jsonld", "'${dirname}'s": '"$json_files"'}' > "./${dirname}.json"
           fi
         done
+    - name: Create context from all datadescriptors
+      run: |
+          echo '{"@context": {"@base": "https://espri-mod.github.io/mip-cmor-tables",'  > 000_context.jsonld                          
+
+          # Loop through each directory in TATA
+          for dir in */; do
+            if [ -d "$dir" ]; then
+              # Get the name of the directory
+              dirname=$(basename "$dir")
+              # Append directory-specific context to 000_context.jsonld
+              echo '"'"$dirname"'s": {"@id": "https://espri-mod.github.io/mip-cmor-tables/'"$dirname"'/'"$dirname"'", "@context": {"@base": "https://espri-mod.github.io/mip-cmor-tables/'"$dirname"'"}},' >> 000_context.jsonld
+            fi
+          done
+
+          # Remove the last comma and close the JSON structure
+          sed -i '$ s/,$//' 000_context.jsonld
+          echo '}}' >> 000_context.jsonld
+
 
     - name: Set up Git user for commit
       run: |
