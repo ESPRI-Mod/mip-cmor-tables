@@ -29,7 +29,19 @@ jobs:
         name: datadescriptors.json
         path: ./datadescriptors.json
 
-
+    - name: List json files in each datadescriptors and create JSON for each
+      run: |
+        # Loop through each directory in TATA
+        for dir in *; do
+          if [ -d "$dir" ]; then
+            # Get the name of the directory
+            dirname=$(basename "$dir")
+            # List all JSON files inside the directory, strip path and .json extension
+            json_files=$(find "$dir" -maxdepth 1 -type f -name "*.json" | sed 's|.*/||' | sed 's|.json||' | jq -R . | jq -s .)
+            # Create the JSON file with the directory name in the root of the repository
+        echo '{"@context":"000_context.jsonld", "terms": '"$json_files"'}' > "./${dirname}.json"
+          fi
+        done
 
     - name: Set up Git user for commit
       run: |
@@ -38,8 +50,8 @@ jobs:
 
     - name: Commit datadescriptors.json
       run: |
-        git add ./datadescriptors.json
-        git commit -m "Generate datadescriptors.json listing all dd"
+        git add .
+        git commit -m "Actions Generated files"
         git push origin uni_proj_ld 
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
