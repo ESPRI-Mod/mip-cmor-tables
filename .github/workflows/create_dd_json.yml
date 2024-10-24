@@ -28,3 +28,11 @@ jobs:
       with:
         name: datadescriptors.json
         path: ./datadescriptors.json
+
+    - name: Commit datadescriptors.json
+      run: |
+        git add ./datadescriptors.json
+        git commit -m "Generate datadescriptors.json listing all dd"
+        git push origin uni_proj_ld 
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
