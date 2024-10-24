@@ -52,7 +52,7 @@ jobs:
               # Get the name of the directory
               dirname=$(basename "$dir")
               # Append directory-specific context to 000_context.jsonld
-              echo '"'"$dirname"'s": {"@id": "https://espri-mod.github.io/mip-cmor-tables/'"$dirname"'/'"$dirname"'", "@context": {"@base": "https://espri-mod.github.io/mip-cmor-tables/'"$dirname"'"}},' >> 000_context.jsonld
+              echo '"'"$dirname"'s": {"@id": "https://espri-mod.github.io/mip-cmor-tables/'"$dirname", "@context": {"@base": "https://espri-mod.github.io/mip-cmor-tables/'"$dirname"'"}},' >> 000_context.jsonld
             fi
           done
 
