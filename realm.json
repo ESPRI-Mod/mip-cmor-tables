@@ -1,0 +1,10 @@
+{"@context":"000_context.jsonld", "realms": [
+  "landIce",
+  "ocean",
+  "atmos",
+  "seaIce",
+  "ocnBgchem",
+  "atmosChem",
+  "land",
+  "aerosol"
+]}

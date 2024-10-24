@@ -1,0 +1,12 @@
+{"@context":"000_context.jsonld", "source_types": [
+  "slab",
+  "bgc",
+  "rad",
+  "ism",
+  "aogcm",
+  "agcm",
+  "aer",
+  "chem",
+  "land",
+  "ogcm"
+]}

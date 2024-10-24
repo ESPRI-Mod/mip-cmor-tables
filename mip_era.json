@@ -1,0 +1,6 @@
+{"@context":"000_context.jsonld", "mip_eras": [
+  "cmip6plus",
+  "cmip5",
+  "cmip7",
+  "cmip6"
+]}

@@ -1,0 +1,18 @@
+{"@context":"000_context.jsonld", "frequencys": [
+  "day",
+  "yr",
+  "6hrPt",
+  "monPt",
+  "1hrCM",
+  "fx",
+  "monC",
+  "6hr",
+  "3hrPt",
+  "yrPt",
+  "subhrPt",
+  "1hrPt",
+  "1hr",
+  "3hr",
+  "dec",
+  "mon"
+]}

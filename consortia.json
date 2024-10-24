@@ -1,0 +1,23 @@
+{"@context":"000_context.jsonld", "consortias": [
+  "_ucsd-sio",
+  "_rubisco",
+  "_rte-rrtmgp-consortium",
+  "_cnrm-cerfacs",
+  "_messy-consortium",
+  "_noaa-gfdl",
+  "_incois-nio-ipsl",
+  "ncc",
+  "_pcmdi",
+  "miroc",
+  "_espri-ipsl",
+  "_ec-earth-consortium",
+  "_csiro-arccss",
+  "solaris-heppa",
+  "_fio-qlnm",
+  "_hammoz-consortium",
+  "_dlr-bira",
+  "_iamc",
+  "_nims-kma",
+  "_e3sm-project",
+  "_csiro-cosima"
+]}

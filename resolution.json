@@ -1,0 +1,17 @@
+{"@context":"000_context.jsonld", "resolutions": [
+  "2500km",
+  "1000km",
+  "1km",
+  "5000km",
+  "500km",
+  "10000km",
+  "2.5km",
+  "0.5km",
+  "50km",
+  "100km",
+  "5km",
+  "25km",
+  "250km",
+  "1x1degree",
+  "10km"
+]}
