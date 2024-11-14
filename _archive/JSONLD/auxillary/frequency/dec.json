@@ -1,8 +1,0 @@
-{
-  "@id": "mip-cmor-tables:auxillary/frequency/dec",
-  "@type": "frequency",
-  "description": "decadal mean samples",
-  "long_name": "Decadal Frequency",
-  "name": "dec",
-  "unit": "decade"
-}

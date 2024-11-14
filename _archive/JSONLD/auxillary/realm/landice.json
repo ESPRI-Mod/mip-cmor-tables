@@ -1,6 +1,0 @@
-{
-  "@id": "mip-cmor-tables:auxillary/realm/landice",
-  "@type": "realm",
-  "description": "Land Ice",
-  "name": "landIce"
-}

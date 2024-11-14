@@ -1,8 +1,0 @@
-{
-  "@id": "mip-cmor-tables:grid/label/gm",
-  "@type": "grid-label",
-  "name": "gm",
-  "description": "global mean data",
-  "region": "greenland",
-  "short name": "Greenland"
-}

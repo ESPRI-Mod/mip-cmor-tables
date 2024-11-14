@@ -1,6 +1,0 @@
-{
-  "@id": "mip-cmor-tables:auxillary/realm/aerosol",
-  "@type": "realm",
-  "description": "Aerosol",
-  "name": "aerosol"
-}
