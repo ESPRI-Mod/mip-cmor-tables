@@ -7,7 +7,7 @@ import os
 # URLs of the JSON files on GitHub
 json_url1 = 'https://raw.githubusercontent.com/PCMDI/mip-cmor-tables/refs/heads/main/MIP_variables.json'
 # Directory where the JSON files will be saved
-save_dir = 'datadescriptor/variable/'
+save_dir = 'variable/'
 
 # Create the directory if it doesn't exist
 os.makedirs(save_dir, exist_ok=True)

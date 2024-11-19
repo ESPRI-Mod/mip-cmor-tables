@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "vegHeightGrass",
+    "id": "vegheightgrass",
     "cmip_acronym": "vegHeightGrass",
     "long_name": "Height of Grass",
     "standard_name": "canopy_height",

@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "tsnIs",
+    "id": "tsnis",
     "cmip_acronym": "tsnIs",
     "long_name": "Ice Sheet Snow Internal Temperature",
     "standard_name": "temperature_in_surface_snow",

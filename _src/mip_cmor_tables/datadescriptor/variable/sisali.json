@@ -1,9 +1,0 @@
-{
-    "@context": "000_context.jsonld",
-    "id": "sisali",
-    "cmip_acronym": "sisali",
-    "long_name": "Sea Ice Salinity",
-    "standard_name": "sea_ice_salinity",
-    "type": "real",
-    "units": "0.001"
-}

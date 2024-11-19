@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "prraIs",
+    "id": "prrais",
     "cmip_acronym": "prraIs",
     "long_name": "Ice Sheet Rainfall Rate",
     "standard_name": "rainfall_flux",

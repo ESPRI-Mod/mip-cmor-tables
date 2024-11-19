@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "hflsIs",
+    "id": "hflsis",
     "cmip_acronym": "hflsIs",
     "long_name": "Ice Sheet Surface Upward Latent Heat Flux",
     "standard_name": "surface_upward_latent_heat_flux",

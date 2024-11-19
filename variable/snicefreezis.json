@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "snicefreezIs",
+    "id": "snicefreezis",
     "cmip_acronym": "snicefreezIs",
     "long_name": "Ice Sheet Surface Snow and Ice Refreeze Flux",
     "standard_name": "surface_snow_and_ice_refreezing_flux",

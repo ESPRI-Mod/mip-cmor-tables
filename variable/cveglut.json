@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "cVegLut",
+    "id": "cveglut",
     "cmip_acronym": "cVegLut",
     "long_name": "Carbon in Vegetation on Land-Use Tiles",
     "standard_name": "vegetation_carbon_content",

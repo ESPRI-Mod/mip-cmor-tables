@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "cWood",
+    "id": "cwood",
     "cmip_acronym": "cWood",
     "long_name": "Carbon Mass in Wood",
     "standard_name": "stem_mass_content_of_carbon",

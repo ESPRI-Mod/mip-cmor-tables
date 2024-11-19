@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "co2Clim",
+    "id": "co2clim",
     "cmip_acronym": "co2Clim",
     "long_name": "Mole Fraction of CO2",
     "standard_name": "mole_fraction_of_carbon_dioxide_in_air",

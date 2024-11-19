@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "nStem",
+    "id": "nstem",
     "cmip_acronym": "nStem",
     "long_name": "Nitrogen Mass in Stem",
     "standard_name": "stem_mass_content_of_nitrogen",

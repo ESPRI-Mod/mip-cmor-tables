@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "sfcWindmax",
+    "id": "sfcwindmax",
     "cmip_acronym": "sfcWindmax",
     "long_name": "Daily Maximum Near-Surface Wind Speed",
     "standard_name": "wind_speed",

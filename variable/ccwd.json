@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "cCwd",
+    "id": "ccwd",
     "cmip_acronym": "cCwd",
     "long_name": "Carbon Mass in Coarse Woody Debris",
     "standard_name": "wood_debris_mass_content_of_carbon",

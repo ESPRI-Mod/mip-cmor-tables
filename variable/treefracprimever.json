@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "treeFracPrimEver",
+    "id": "treefracprimever",
     "cmip_acronym": "treeFracPrimEver",
     "long_name": "Percentage Cover by Primary Evergreen Trees",
     "standard_name": "area_fraction",

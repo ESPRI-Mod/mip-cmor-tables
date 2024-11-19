@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "mrroLut",
+    "id": "mrrolut",
     "cmip_acronym": "mrroLut",
     "long_name": "Total Runoff from Land-Use Tile",
     "standard_name": "runoff_flux",

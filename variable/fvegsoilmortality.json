@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "fVegSoilMortality",
+    "id": "fvegsoilmortality",
     "cmip_acronym": "fVegSoilMortality",
     "long_name": "Total Carbon Mass Flux from Vegetation to Soil as a Result of Mortality",
     "standard_name": "mass_flux_of_carbon_into_soil_from_vegetation_due_to_mortality",

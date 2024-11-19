@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "cSoilGrass",
+    "id": "csoilgrass",
     "cmip_acronym": "cSoilGrass",
     "long_name": "Carbon Mass in Soil on Grass Tiles",
     "standard_name": "soil_mass_content_of_carbon",

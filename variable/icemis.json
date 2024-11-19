@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "icemIs",
+    "id": "icemis",
     "cmip_acronym": "icemIs",
     "long_name": "Ice Sheet Surface Ice Melt Flux",
     "standard_name": "land_ice_surface_melt_flux",

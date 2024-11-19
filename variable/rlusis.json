@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "rlusIs",
+    "id": "rlusis",
     "cmip_acronym": "rlusIs",
     "long_name": "Ice Sheet Surface Upwelling Longwave Radiation",
     "standard_name": "surface_upwelling_longwave_flux_in_air",

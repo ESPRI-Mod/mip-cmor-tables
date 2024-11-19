@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "mrroIs",
+    "id": "mrrois",
     "cmip_acronym": "mrroIs",
     "long_name": "Ice Sheet Total Runoff",
     "standard_name": "runoff_flux",

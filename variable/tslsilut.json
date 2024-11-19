@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "tslsiLut",
+    "id": "tslsilut",
     "cmip_acronym": "tslsiLut",
     "long_name": "Surface Temperature on Landuse Tile",
     "standard_name": "surface_temperature",

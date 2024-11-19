@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "tasLut",
+    "id": "taslut",
     "cmip_acronym": "tasLut",
     "long_name": "Near-Surface Air Temperature on Land Use Tile",
     "standard_name": "air_temperature",

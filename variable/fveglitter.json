@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "fVegLitter",
+    "id": "fveglitter",
     "cmip_acronym": "fVegLitter",
     "long_name": "Total Carbon Mass Flux from Vegetation to Litter",
     "standard_name": "mass_flux_of_carbon_into_litter_from_vegetation",

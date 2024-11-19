@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "prCrop",
+    "id": "prcrop",
     "cmip_acronym": "prCrop",
     "long_name": "Precipitation over Crop Tile",
     "standard_name": "precipitation_flux",

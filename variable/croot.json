@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "cRoot",
+    "id": "croot",
     "cmip_acronym": "cRoot",
     "long_name": "Carbon Mass in Roots",
     "standard_name": "root_mass_content_of_carbon",

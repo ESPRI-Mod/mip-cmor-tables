@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
-    "id": "cropFrac",
+    "id": "cropfrac",
     "cmip_acronym": "cropFrac",
     "long_name": "Percentage Crop Cover",
     "standard_name": "area_fraction",
