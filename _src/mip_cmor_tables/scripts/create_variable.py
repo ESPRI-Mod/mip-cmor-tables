@@ -35,7 +35,7 @@ for key, value in variable_ids1.items():
     print("    ",var_infos)
     ## NEED TO MODIFIY 2,3 THINGS
     res["@context"] = "000_context.jsonld"  
-    res["id"] = key
+    res["id"] = key.lower()
     res["cmip_acronym"] = value["out_name"]
     res["long_name"] = value["long_name"]
     res["standard_name"] = value["standard_name"]
