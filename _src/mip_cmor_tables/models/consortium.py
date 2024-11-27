@@ -63,7 +63,7 @@ class Member(ConfiguredBaseModel):
     dates : List[Dates] = Field(default_factory=list)
     membership_type : str # prior, current
 
-class Consortia(ConfiguredBaseModel):
+class Consortium(ConfiguredBaseModel):
 
     id: str 
     validation_method: str = Field(default = "list")
