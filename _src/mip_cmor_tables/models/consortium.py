@@ -78,4 +78,4 @@ class Consortium(ConfiguredBaseModel):
 
 # Model rebuild
 # see https://pydantic-docs.helpmanual.io/usage/models/#rebuilding-a-model
-Consortia.model_rebuild()
+Consortium.model_rebuild()
