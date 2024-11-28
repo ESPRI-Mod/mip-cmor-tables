@@ -1,10 +1,10 @@
 {
 	"@context": {
-      	"@base":"http://es-vocab.ipsl.fr/physic_index/",
-	"@vocab":"http://es-vocab.ipsl.fr/",
+      	"@base":"https://espri-mod.github.io/mip-cmor-tables/physic_index/",
+	"@vocab":"https://espri-mod.github.io/mip-cmor-tables/",
 	"id":"@id",
 	"type":"@type",
-	"regex":"http://es-vocab.ipsl.fr/regex"
+	"regex":"https://espri-mod.github.io/mip-cmor-tables/regex"
   		
     }
 }

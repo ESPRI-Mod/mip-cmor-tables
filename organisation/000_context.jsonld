@@ -1,8 +1,8 @@
 {
      
 "@context": {
-      "@base":"http://es-vocab.ipsl.fr/",
-      
+      "@base":"https://espri-mod.github.io/mip-cmor-tables/",
+       
       "id": "@id",
       "type":"@type"
       

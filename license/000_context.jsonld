@@ -3,7 +3,7 @@
 {
      
       "@context": {
-      "@base":"http://es-vocab.ipsl.fr/license/",
+      "@base":"https://espri-mod.github.io/mip-cmor-tables/license/",
       "@vocab": "http://schema.org/",
       "id": "@id",
       "type":"@type",

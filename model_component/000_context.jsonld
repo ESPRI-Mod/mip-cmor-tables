@@ -1,20 +1,20 @@
 {
 
 	"@context": {
-        "@base":"http://es-vocab.ipsl.fr/model_component/",
+        "@base":"https://espri-mod.github.io/mip-cmor-tables/model_component/",
         "@vocab": "http://schema.org/",
         "id": "@id",
         "type":"@type",
         "name": {"@id": "https://schema.org/name"},
         "description":{"@id":"https://schema.org/description"},
-        "realm":{"@id":"http://es-vocab.ipsl.fr/realm/",
+        "realm":{"@id":"https://espri-mod.github.io/mip-cmor-tables/realm/",
                "@type":"@id",
-               "@context":{"@base":"http://es-vocab.ipsl.fr/realm/"}
+               "@context":{"@base":"https://espri-mod.github.io/mip-cmor-tables/realm/"}
               },
 
-        "nominal_resolution":{"@id":"http://es-vocab.ipsl.fr/nominal_resolution/",
+        "nominal_resolution":{"@id":"https://espri-mod.github.io/mip-cmor-tables/nominal_resolution/",
                "@type":"@id",
-               "@context":{"@base":"http://es-vocab.ipsl.fr/nominal_resolution/"}
+               "@context":{"@base":"https://espri-mod.github.io/mip-cmor-tables/nominal_resolution/"}
               }
 
       

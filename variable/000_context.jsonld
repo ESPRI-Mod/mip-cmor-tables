@@ -4,11 +4,11 @@
 {
      
 "@context": {
-      "@base":"http://es-vocab.ipsl.fr/",
+      "@base":"https://espri-mod.github.io/mip-cmor-tables/",
       "@vocab": "http://schema.org/",
       "id": "@id",
       "type":"@type",
-      "variable": "http://es-vocab.ipsl.fr/variable/",
+      "variable": "https://espri-mod.github.io/mip-cmor-tables/variable/",
       "long_name": "https://schema.org/name",
       "standard_name_name": "https://schema.org/alternativeName",
       "units":"https://schema.org/unitText"

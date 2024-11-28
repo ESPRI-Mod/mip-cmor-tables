@@ -1,21 +1,21 @@
 {
   "@context": {
-      "@base":"http://es-vocab.ipsl.fr/",
+      "@base":"https://espri-mod.github.io/mip-cmor-tables/",
       "@vocab": "http://schema.org/",
       "id": "@id",
       "type":"@type",
-      "corsotium": "http://es-vocab.ipsl.fr/consortia/",
+      "corsotium": "https://espri-mod.github.io/mip-cmor-tables/consortia/",
 
-      "cmip-acronym":{"@id":"http://es-vocab.ipsl.fr/cmip_acronym/"},
+      "cmip-acronym":{"@id":"https://espri-mod.github.io/mip-cmor-tables/cmip_acronym/"},
       "name":{"@id":"https://schema.org/name"},
-      "status":{"@id":"http://es-vocab.ipsl.fr/status/"},
+      "status":{"@id":"https://espri-mod.github.io/mip-cmor-tables/status/"},
       "members":{ "@id": "https://schema.org/member",
                        "@type":"@id",
                        "@context":{
                          	    "institution":{
-                                    "@id":"http://es-vocab.ipsl.fr/institution/",
+                                    "@id":"https://espri-mod.github.io/mip-cmor-tables/institution/",
                                     "@type":"@id",
-                                      "@context":{"@base":"http://es-vocab.ipsl.fr/institution/"}
+                                      "@context":{"@base":"https://espri-mod.github.io/mip-cmor-tables/institution/"}
                                       
                                      
                           

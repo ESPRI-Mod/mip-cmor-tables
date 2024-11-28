@@ -2,12 +2,12 @@
 {
      
       "@context": {
-      "@base":"http://es-vocab.ipsl.fr/",
+      "@base":"https://espri-mod.github.io/mip-cmor-tables/",
       "@vocab": "http://schema.org/",
       "id": "@id",
       "type":"@type",
-      "product": "http://es-vocab.ipsl.fr/product/",
-      "kind": {"@id": "http://es-vocab.ipsl.fr/kind"},
+      "product": "https://espri-mod.github.io/mip-cmor-tables/product/",
+      "kind": {"@id": "https://espri-mod.github.io/mip-cmor-tables/kind"},
       
       "description":{"@id":"https://schema.org/description"}
       

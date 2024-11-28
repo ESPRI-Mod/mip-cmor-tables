@@ -3,7 +3,7 @@
 {
      
       "@context": {
-      "@base":"http://es-vocab.ipsl.fr/institution/",
+      "@base":"https://espri-mod.github.io/mip-cmor-tables/institution/",
       "@vocab": "http://schema.org/",
       "id": "@id",
       "type":"@type",

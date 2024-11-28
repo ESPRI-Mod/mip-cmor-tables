@@ -2,11 +2,11 @@
 {
      
       "@context": {
-      "@base":"http://es-vocab.ipsl.fr/",
+      "@base":"https://espri-mod.github.io/mip-cmor-tables/",
       "@vocab": "http://schema.org/",
       "id": "@id",
       "type":"@type",
-      "grid-label": "http://es-vocab.ipsl.fr/grid/",
+      "grid-label": "https://espri-mod.github.io/mip-cmor-tables/grid/",
       "short_name": {"@id": "https://schema.org/alternateName"},
       "name": {"@id": "https://schema.org/name"},
       "region": {"@id": "https://es-vocab.fr/region"},
