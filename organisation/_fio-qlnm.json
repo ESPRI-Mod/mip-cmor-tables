@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "id": "fio-qlnm",
+    "id": "consortium/fio-qlnm",
     "type": "consortium"
 }

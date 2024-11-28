@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "id": "kit",
+    "id": "institution/kit",
     "type": "institution"
 }

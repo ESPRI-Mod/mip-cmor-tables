@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "id": "ucsd-sio",
+    "id": "consortium/ucsd-sio",
     "type": "consortium"
 }

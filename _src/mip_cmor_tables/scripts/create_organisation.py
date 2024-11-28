@@ -21,7 +21,7 @@ for file in institution_path.iterdir():
         print(inst.id)
         inst_data = {
             "@context":"000_context.jsonld",
-            "id": inst.id,
+            "id": "institution/"+inst.id,
             "type": inst.type
         } 
     
@@ -38,7 +38,7 @@ for file in consortia_path.iterdir():
         print(cons.id)
         inst_data = {
             "@context":"000_context.jsonld",
-            "id": cons.id,
+            "id": "consortium/"+cons.id,
             "type": cons.type
         } 
     

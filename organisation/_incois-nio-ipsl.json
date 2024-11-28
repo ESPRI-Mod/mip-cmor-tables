@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "id": "incois-nio-ipsl",
+    "id": "consortium/incois-nio-ipsl",
     "type": "consortium"
 }

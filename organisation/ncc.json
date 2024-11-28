@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "id": "ncc",
+    "id": "consortium/ncc",
     "type": "consortium"
 }

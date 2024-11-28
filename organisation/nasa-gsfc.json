@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "id": "nasa-gsfc",
+    "id": "institution/nasa-gsfc",
     "type": "institution"
 }

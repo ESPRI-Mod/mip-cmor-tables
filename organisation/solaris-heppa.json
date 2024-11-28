@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "id": "solaris-heppa",
+    "id": "consortium/solaris-heppa",
     "type": "consortium"
 }

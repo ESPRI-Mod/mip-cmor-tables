@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "id": "hammoz-consortium",
+    "id": "consortium/hammoz-consortium",
     "type": "consortium"
 }
