@@ -20,7 +20,7 @@ for file in institution_path.iterdir():
         inst = Institution(**insti_dict) # 
         print(inst.id)
         inst_data = {
-            "@context":"000_context.json.ld",
+            "@context":"000_context.jsonld",
             "id": inst.id,
             "type": inst.type
         } 
