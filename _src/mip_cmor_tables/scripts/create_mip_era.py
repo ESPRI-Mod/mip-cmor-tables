@@ -27,7 +27,7 @@ for p in terms_file_list:
     output_term["id"] = output_term["@id"].split("/")[-1]
     output_term.pop("@id")
 
-    output_term["type"]  = input_term["@type"]
+    output_term["type"]  = input_term["@type"].replace("-","_")
     output_term.pop("@type")
 
     

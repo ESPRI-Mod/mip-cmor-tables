@@ -5,6 +5,6 @@
     "name": "CMIP7",
     "start": 2025,
     "url": "https://wcrp-cmip.org/CMIP7",
-    "type": "mip-era",
+    "type": "mip_era",
     "drs_name": "CMIP7"
 }
