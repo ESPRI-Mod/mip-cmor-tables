@@ -2,13 +2,13 @@ from pathlib import Path
 import os,json
 
 from _pytest.pathlib import insert_missing_modules
-from mip_cmor_tables.models.consortia import Consortia
+from mip_cmor_tables.models.consortium import Consortium
 from mip_cmor_tables.models.institution import Institution
 
-institution_path = Path("datadescriptor/institution")
-consortia_path = Path("datadescriptor/consortia")
+institution_path = Path("institution")
+consortia_path = Path("consortium")
 
-save_dir = 'datadescriptor/organisation/'
+save_dir = 'organisation/'
 
 # Create the directory if it doesn't exist
 os.makedirs(save_dir, exist_ok=True)
@@ -34,10 +34,10 @@ for file in consortia_path.iterdir():
     if file.suffix==".json":
         with open(file) as f:
             cons_dict = json.load(f)
-        cons = Consortia(**cons_dict) # 
+        cons = Consortium(**cons_dict) # 
         print(cons.id)
         inst_data = {
-            "@context":"000_context.json.ld",
+            "@context":"000_context.jsonld",
             "id": cons.id,
             "type": cons.type
         } 
