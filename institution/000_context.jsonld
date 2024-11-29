@@ -12,7 +12,7 @@
       "name": {"@id": "https://schema.org/name"},
       
       "cmip-acronym":{"@id":"https://schema.org/alternateName"},
-      "establish":{"@id":"https://schema.org/foundingDate"},
+      "established":{"@id":"https://schema.org/foundingDate"},
       "labels":{"@id":"https://schema.org/alternateName"},
       "location":{"@id":"https://schema.org/location"},
       "ror":{"@id":"https://ror.org/"},
