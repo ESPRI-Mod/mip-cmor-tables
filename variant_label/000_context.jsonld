@@ -1,7 +1,7 @@
 {
 "@context":
  	 {
-       "@base":"https://espri-mod.github.io/mip-cmor-tables",
+       "@base":"https://espri-mod.github.io/mip-cmor-tables/variant_label/",
        "@vocab":"https://espri-mod.github.io/mip-cmor-tables/variant_label/",
        "id":"@id",
        "type":"@type",
