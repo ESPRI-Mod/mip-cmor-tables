@@ -50,11 +50,11 @@ todo.md # just to see where i am and what im planning to do
 | model_component | Done (But only from CMIP6Plus) |
 | dataRegionDD  | ? |
 | sourceTypeDD | Done|  
-| realizationDD | 
-| initializationDD|  
-| variantDD |
-| physicsDD  |
-| forcingDD  |
+| realizationDD | Done | 
+| initializationDD| Done |
+| variantDD | Done |
+| physicsDD  | Done |
+| forcingDD  | Done |
  
 ## Choose DD
 ### find relevant Ontology to describe each attribute of each DD
